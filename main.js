@@ -4,13 +4,6 @@ let char = ["Gandalf", "Jack Ryan", "Thor", "Harry Potter", "the hero", "the pro
 let noun2 = ["issues", "wrath", "unending joy", "frustration", ]
 
 
-// var nounResult = noun[Math.floor(Math.random() * noun.length)];
-// var adjResult = adj[Math.floor(Math.random() * adj.length)];
-// var charResult = char[Math.floor(Math.random() * char.length)];
-// var noun2Result = noun2[Math.floor(Math.random() * noun2.length)];
-
-
-// console.log(nounResult)
 function promtFunction() {
     let nounResult = noun[Math.floor(Math.random() * noun.length)];
     let adjResult = adj[Math.floor(Math.random() * adj.length)];
@@ -20,3 +13,4 @@ function promtFunction() {
 
 $("#prompt").html("The " + adjResult + " " + nounResult + " is dealing with the " + noun2Result + " of " + charResult)
 }
+
